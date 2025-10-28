@@ -17,6 +17,12 @@ elif [ $ENV = dlc ]; then
     NNODES=${WORLD_SIZE}
     NODE_RANK=${RANK}
     GPUS_PER_NODE=${KUBERNETES_CONTAINER_RESOURCE_GPU}
+elif [ $ENV = 1node ]; then
+    NNODES=1
+    NODE_RANK=0
+    # GPUS_PER_NODE=${KUBERNETES_CONTAINER_RESOURCE_GPU} # specify by envronment var
+    MASTER_ADDR=localhost # single node training / sft
+    MASTER_PORT=$(shuf -n 1 -i 10000-65535)
 fi
 
 

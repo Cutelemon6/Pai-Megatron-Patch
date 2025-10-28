@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:25.04-py3
+FROM nvcr.nju.edu.cn/nvidia/pytorch:25.04-py3
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \

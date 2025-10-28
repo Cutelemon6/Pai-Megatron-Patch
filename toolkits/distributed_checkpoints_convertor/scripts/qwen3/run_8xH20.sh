@@ -10,7 +10,7 @@ export TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD=true # for PyTorch >= 2.6
 
 NUM_NODES=${WORLD_SIZE:-1}
 NODE_RANK=${RANK:-0}
-GPUS_PER_NODE=${KUBERNETES_CONTAINER_RESOURCE_GPU:-8}
+GPUS_PER_NODE=$(nvidia-smi -L | wc -l) # use all gpus on this node
 MASTER_ADDR=${MASTER_ADDR:-localhost}
 MASTER_PORT=${MASTER_PORT:-6000}
 
