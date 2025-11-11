@@ -7,6 +7,30 @@ export PYTHONPATH=${MEGATRON_PATCH_PATH}:${MEGATRON_PATCH_PATH}/backends/megatro
 export CUDA_DEVICE_MAX_CONNECTIONS=1
 export TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD=true # for PyTorch >= 2.6
 
+# store bash arguments
+log_dir="../../expr/${EXPR_NAME:-unknown_expr}"
+mkdir -p "$log_dir"
+log_file="$log_dir/script_arguments.log"
+
+{
+    echo "=== $(date) ==="
+    echo "工作目录: $(pwd)"
+    echo "环境变量:"
+    echo "  EXPR_NAME: ${EXPR_NAME:-未设置}"
+    echo "  NODE_RANK: ${NODE_RANK:-未设置}"
+    echo "  NNODES: ${NNODES:-未设置}"
+    echo "  GPUS_PER_NODE: ${GPUS_PER_NODE:-未设置}"
+    echo "执行的脚本: $0"
+    echo "参数个数: $#"
+    echo "所有参数: $@"
+    echo "详细参数列表:"
+    for i in $(seq 1 $#); do
+        echo "  参数$i: ${!i}"
+    done
+    echo "------------------------"
+} | tee -a "$log_file"
+
+
 if [ $ENV = dsw ]; then
     MASTER_ADDR=localhost
     MASTER_PORT=$(shuf -n 1 -i 10000-65535)
@@ -413,8 +437,8 @@ if [ ${MP_DATASET_TYPE} = "raw" ]; then
         --dataset JSON-SFT"
 else 
     dataset_options=" \
-        --data-path ${DATASET_PATH} \
-        --split 99,1,0 \
+        --train-data-path ${DATASET_PATH} \
+        --valid-data-path ${VALID_DATASET_PATH} \
         --dataset MMAP"
 fi
 
@@ -467,8 +491,8 @@ megatron_options="  \
         --max-padding-length ${PAD_LEN} \
         --log-interval 1 \
         --log-throughput \
-        --eval-interval 10000 \
-        --eval-iters 10 \
+        --eval-interval 200 \
+        --eval-iters 20 \
         --save-interval ${SAVE_INTERVAL} \
         --tensorboard-queue-size 1 \
         --tensorboard-dir ${TENSORBOARD_DIR} \
@@ -479,7 +503,7 @@ megatron_options="  \
         --context-parallel-size ${CP} \
         --no-load-optim \
         --no-load-rng \
-        --num-workers 32 \
+        --num-workers 4 \
         --extra-vocab-size ${EXTRA_VOCAB_SIZE} \
         --patch-tokenizer-type Qwen3Tokenizer \
         --swiglu \
@@ -504,6 +528,8 @@ megatron_options="  \
 #       --decoder-first-pipeline-num-layers 10
 #         --te-rng-tracker \         --external-cuda-graph \        --cuda-graph-scope attn
 
+# fix asiai platform ld error: -lcuda not found
+export LIBRARY_PATH=/usr/local/cuda/compat/lib.real:${LIBRARY_PATH}
 
 run_cmd="torchrun $DISTRIBUTED_ARGS pretrain_qwen.py
  ${megatron_options} ${dataset_options} ${pr_options} ${load_option} ${activation_checkpoint_options} \

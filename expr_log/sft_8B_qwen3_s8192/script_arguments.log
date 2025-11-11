@@ -1,0 +1,468 @@
+=== Tue Oct 28 12:46:42 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 16 32 2e-5 1e-6 8192 8192 bf16 1 2 1 1 1 1 true true true none false 250 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 500 25 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 16
+  参数4: 32
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 1
+  参数11: 2
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 250
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 500
+  参数26: 25
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 12:49:07 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 16 32 2e-5 1e-6 8192 8192 bf16 1 2 1 1 1 1 true true true none false 250 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 500 25 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 16
+  参数4: 32
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 1
+  参数11: 2
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 250
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 500
+  参数26: 25
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 12:52:12 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 8 16 2e-5 1e-6 8192 8192 bf16 1 2 1 1 1 1 true true true none false 500 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 1000 50 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 8
+  参数4: 16
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 1
+  参数11: 2
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 500
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 1000
+  参数26: 50
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 12:53:32 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 8 16 2e-5 1e-6 8192 8192 bf16 1 2 1 1 1 1 true true true none false 500 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 1000 50 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 8
+  参数4: 16
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 1
+  参数11: 2
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 500
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 1000
+  参数26: 50
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 12:57:32 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 4 8 2e-5 1e-6 8192 8192 bf16 1 2 1 1 1 1 true true true none false 1000 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 2000 100 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 4
+  参数4: 8
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 1
+  参数11: 2
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 1000
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 2000
+  参数26: 100
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 12:58:39 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 2 4 2e-5 1e-6 8192 8192 bf16 1 2 1 1 1 1 true true true none false 2000 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 4000 200 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 2
+  参数4: 4
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 1
+  参数11: 2
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 2000
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 4000
+  参数26: 200
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 12:59:46 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 1 2 2e-5 1e-6 8192 8192 bf16 1 2 1 1 1 1 true true true none false 4000 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 8000 400 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 1
+  参数4: 2
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 1
+  参数11: 2
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 4000
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 8000
+  参数26: 400
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 13:01:20 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 1 1 2e-5 1e-6 8192 8192 bf16 1 4 1 1 1 1 true true true none false 4000 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 8000 400 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 1
+  参数4: 1
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 1
+  参数11: 4
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 4000
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 8000
+  参数26: 400
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 13:05:13 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 2 2 2e-5 1e-6 8192 8192 bf16 1 4 1 1 1 1 true true true none false 2000 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 4000 200 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 2
+  参数4: 2
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 1
+  参数11: 4
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 2000
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 4000
+  参数26: 200
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 13:07:22 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 2 2 2e-5 1e-6 8192 8192 bf16 2 2 1 1 1 1 true true true none false 2000 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 4000 200 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 2
+  参数4: 2
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 2
+  参数11: 2
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 2000
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 4000
+  参数26: 200
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 13:08:46 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 2 2 2e-5 1e-6 8192 8192 bf16 4 1 1 1 1 1 true true true none false 2000 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 4000 200 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 2
+  参数4: 2
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 4
+  参数11: 1
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 2000
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 4000
+  参数26: 200
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
+=== Tue Oct 28 13:10:54 UTC 2025 ===
+工作目录: /root/aicloud-fs/Pai-Megatron-Patch/examples/qwen3
+环境变量:
+  EXPR_NAME: sft_8B_qwen3_s8192
+  NODE_RANK: 0
+  NNODES: 1
+  GPUS_PER_NODE: 4
+执行的脚本: run_mcore_qwen3.sh
+参数个数: 27
+所有参数: 1node 8B 1 1 2e-5 1e-6 8192 8192 bf16 4 1 1 1 1 1 true true true none false 4000 /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-fs/emo-contest/cla-det-conv_text_document /root/aicloud-data/models/Qwen3-8B-mg 8000 400 /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+详细参数列表:
+  参数1: 1node
+  参数2: 8B
+  参数3: 1
+  参数4: 1
+  参数5: 2e-5
+  参数6: 1e-6
+  参数7: 8192
+  参数8: 8192
+  参数9: bf16
+  参数10: 4
+  参数11: 1
+  参数12: 1
+  参数13: 1
+  参数14: 1
+  参数15: 1
+  参数16: true
+  参数17: true
+  参数18: true
+  参数19: none
+  参数20: false
+  参数21: 4000
+  参数22: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数23: /root/aicloud-fs/emo-contest/cla-det-conv_text_document
+  参数24: /root/aicloud-data/models/Qwen3-8B-mg
+  参数25: 8000
+  参数26: 400
+  参数27: /root/aicloud-fs/Pai-Megatron-Patch/output/sft_8B_qwen3_s8192
+------------------------
